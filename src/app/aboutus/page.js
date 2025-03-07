@@ -29,7 +29,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className="container mx-auto  ">
+    <div className="container mx-auto bg-black">
       <section className="wrapper">
         <div className="hero"></div>
         <div className="content-back">

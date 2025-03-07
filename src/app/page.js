@@ -27,7 +27,7 @@ const HomeClient = () => {
     });
   }, []);
   return (
-    <div className="relative container mx-auto ">
+    <div className="relative container mx-auto bg-black">
       {/* Background Video */}
       {/* <video
         autoPlay
@@ -52,12 +52,6 @@ const HomeClient = () => {
           <a href="#services" className="glow-on-hover mt-6 px-6 py-3 section">
             Explore Our Services
           </a>
-          <input type="checkbox" id="switch" />
-          <label>
-            <span>
-              <span classname="icon">→</span> switch bg
-            </span>
-          </label>
         </div>
       </section>
 

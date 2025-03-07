@@ -27,7 +27,7 @@ const BlogPage = () => {
     });
   }, []);
   return (
-    <div className="relative">
+    <div className="relative bg-black">
       {/* Blog Header */}
       <section className="wrapper">
         <div className="hero"></div>

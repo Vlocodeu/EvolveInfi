@@ -29,7 +29,7 @@ const ContactUs = () => {
     });
   }, []);
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto bg-black">
       <section class="wrapper ">
         <div class="hero"></div>
         <div class="content-back-contactus">
