@@ -40,10 +40,10 @@ const HomeClient = () => {
       </video> */}
 
       {/* Hero Section */}
-      <section class="wrapper">
-        <div class="hero"></div>
-        <div class="content-back">
-          <h1 class="h1-glow section" data-text="Welcome to Our Website ">
+      <section className="wrapper">
+        <div className="hero"></div>
+        <div className="content-back">
+          <h1 className="h1-glow section" data-text="Welcome to Our Website ">
             Welcome to Our Website
           </h1>
           <p className="p-glow section">
@@ -53,9 +53,9 @@ const HomeClient = () => {
             Explore Our Services
           </a>
           <input type="checkbox" id="switch" />
-          <label for="switch">
+          <label>
             <span>
-              <span class="icon">→</span> switch bg
+              <span classname="icon">→</span> switch bg
             </span>
           </label>
         </div>
@@ -71,7 +71,7 @@ const HomeClient = () => {
             <div className="box section">
               <span></span>
               <div className="content section">
-                <h2>✅ ISO 9001 Quality Audits & Compliance</h2>
+                <h2>ISO 9001 Quality Audits & Compliance</h2>
 
                 <a href="#">Read More</a>
               </div>
@@ -79,7 +79,7 @@ const HomeClient = () => {
             <div className="box section">
               <span></span>
               <div className="content ">
-                <h2>📊 Lean Manufacturing & Process Optimization</h2>
+                <h2>Lean Manufacturing & Process Optimization</h2>
 
                 <a href="#">Read More</a>
               </div>
@@ -87,7 +87,7 @@ const HomeClient = () => {
             <div className="box section">
               <span></span>
               <div className="content">
-                <h2>💻 Digital Transformation & AI Consulting</h2>
+                <h2>Digital Transformation & AI Consulting</h2>
 
                 <a href="#">Read More</a>
               </div>

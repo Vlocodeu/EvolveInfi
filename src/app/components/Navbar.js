@@ -1,11 +1,9 @@
 "use client"; // ✅ Ensure it's a client component
 import Link from "next/link";
 import { useState } from "react";
-import { useTranslations } from "next-intl";
 
 const Navbar = () => {
   const [language, setLanguage] = useState("en");
-  const t = useTranslations(); // ✅ Get translated text
 
   return (
     <nav className="px-6 py-3 shadow-md">
@@ -17,14 +15,15 @@ const Navbar = () => {
         </div>
 
         {/* Menu */}
-        <div className="hidden md:flex space-x-20">
-          {["home", "services", "aboutus", "blogs", "contactus"].map((item) => (
+        <div className="flex-grow flex justify-center hidden md:flex space-x-20">
+          {["home", "aboutus", "services", "blogs", "contactus"].map((item) => (
             <Link
               key={item}
               href={item === "home" ? "/" : `/${item}`} // Set home to link to "/"
               className="glowing-text hover:text-white"
             >
-              {t(item)}
+              {item.charAt(0).toUpperCase() + item.slice(1)}{" "}
+              {/* Capitalize first letter */}
             </Link>
           ))}
         </div>
@@ -33,34 +32,34 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           {/* Launch App Button */}
           {/* <button className="glowing-btn">
-            <span class="glowing-txt">
-              Get<span class="faulty-letter">Star</span>ted
-            </span>
-          </button> */}
+        <span className="glowing-txt">
+          Get<span className="faulty-letter">Star</span>ted
+        </span>
+      </button> */}
 
           {/* Language Selector */}
-          <div className="flex space-x-2 bg-white p-1 rounded-full shadow">
-            <button
-              className={`px-3 py-1 text-sm rounded-full ${
-                language === "en"
-                  ? "bg-indigo-700 text-white"
-                  : "text-indigo-700"
-              }`}
-              onClick={() => setLanguage("en")}
-            >
-              EN
-            </button>
-            <button
-              className={`px-3 py-1 text-sm rounded-full ${
-                language === "es"
-                  ? "bg-indigo-700 text-white"
-                  : "text-indigo-700"
-              }`}
-              onClick={() => setLanguage("es")}
-            >
-              ES
-            </button>
-          </div>
+          {/* <div className="flex space-x-2 bg-white p-1 rounded-full shadow">
+        <button
+          className={`px-3 py-1 text-sm rounded-full ${
+            language === "en"
+              ? "bg-indigo-700 text-white"
+              : "text-indigo-700"
+          }`}
+          onClick={() => setLanguage("en")}
+        >
+          EN
+        </button>
+        <button
+          className={`px-3 py-1 text-sm rounded-full ${
+            language === "es"
+              ? "bg-indigo-700 text-white"
+              : "text-indigo-700"
+          }`}
+          onClick={() => setLanguage("es")}
+        >
+          ES
+        </button>
+      </div> */}
         </div>
       </div>
     </nav>

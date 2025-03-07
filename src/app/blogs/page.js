@@ -29,13 +29,11 @@ const BlogPage = () => {
   return (
     <div className="relative">
       {/* Blog Header */}
-      <section class="wrapper">
-        <div class="hero"></div>
-        <div class="content-back">
+      <section className="wrapper">
+        <div className="hero"></div>
+        <div className="content-back">
           <header className="py-10 text-center">
-            <h1 className="h1-glow text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent section">
-              BLOG
-            </h1>
+            <h1 className="h1-glow  section">BLOG</h1>
             <h2 className="p-glow text-2xl font-thin mb-6 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent section">
               How EvolveInfi is Transforming Businesses with ISO 9001, Lean Six
               Sigma, and AI-Driven Digital Solutions
@@ -47,7 +45,7 @@ const BlogPage = () => {
       {/* Blog Content */}
       <div className="max-w-4xl mx-auto px-4">
         <section className="mb-10">
-          <h3 className="text-3xl font-semibold mb-4 bg-gradient-to-r from-red-400 to-yellow-500 bg-clip-text text-transparent section">
+          <h3 className="text-3xl  mb-4 font-bold subheading-text section">
             Introduction
           </h3>
           <p className="mb-4 font-thin text-gray-500 section">
@@ -68,7 +66,7 @@ const BlogPage = () => {
 
         {/* ISO 9001 Section */}
         <section className="mb-10 section">
-          <h3 className="text-3xl font-semibold mb-4 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent">
+          <h3 className="text-3xl subheading-text">
             The Power of ISO 9001 in Business Success
           </h3>
           <p className="mb-4 font-thin text-gray-500">
@@ -76,7 +74,7 @@ const BlogPage = () => {
             requirement—it’s a strategic move toward better quality management,
             customer satisfaction, and business growth.
           </p>
-          <h4 className="text-xl font-semibold mb-2 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+          <h4 className="text-xl font-semibold mb-2 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent">
             Why ISO 9001 Matters?
           </h4>
           <ul className="list-disc list-inside mb-4 font-thin text-gray-500">
@@ -106,7 +104,7 @@ const BlogPage = () => {
 
         {/* Lean Six Sigma Section */}
         <section className="mb-10 section">
-          <h3 className="text-3xl font-semibold mb-4 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
+          <h3 className="text-3xl subheading-text">
             Lean Six Sigma: Driving Efficiency & Cost Reduction
           </h3>
           <p className="mb-4 font-thin text-gray-500">
@@ -115,16 +113,14 @@ const BlogPage = () => {
             reduction) with Six Sigma methodologies (process improvement) to
             deliver higher productivity and lower costs.
           </p>
-          <h4 className="text-xl font-semibold mb-2 bg-gradient-to-r from-purple-400 to-red-500 bg-clip-text text-transparent">
+          <h4 className="text-xl font-semibold mb-2 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent">
             How Lean Six Sigma Helps Businesses?
           </h4>
           <ul className="list-disc list-inside mb-4 font-thin text-gray-500">
-            <li>🔹 Eliminates waste, defects, and inefficiencies</li>
-            <li>
-              🔹 Enhances process standardization and workflow optimization
-            </li>
-            <li>🔹 Reduces operational costs and improves profitability</li>
-            <li>🔹 Boosts employee productivity and customer satisfaction</li>
+            <li>Eliminates waste, defects, and inefficiencies</li>
+            <li>Enhances process standardization and workflow optimization</li>
+            <li>Reduces operational costs and improves profitability</li>
+            <li>Boosts employee productivity and customer satisfaction</li>
           </ul>
           <p className="mb-4 font-thin text-gray-500">
             Our Lean Principles consulting ensures that businesses implement the
@@ -140,7 +136,7 @@ const BlogPage = () => {
 
         {/* Digital Transformation Section */}
         <section className="mb-10 section">
-          <h3 className="text-3xl font-semibold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+          <h3 className="text-3xl subheading-text">
             Digital Transformation & AI: The Future of Business
           </h3>
           <p className="mb-4  font-thin text-gray-500">
@@ -153,14 +149,14 @@ const BlogPage = () => {
             Key Benefits of AI-Driven Digital Transformation:
           </h4>
           <ul className="list-disc list-inside mb-4 font-thin text-gray-500">
-            <li>✔ AI-powered business automation for faster workflows</li>
+            <li>AI-powered business automation for faster workflows</li>
             <li>
-              ✔ Smart ERP, CRM, and cloud solutions for data-driven decisions
+              Smart ERP, CRM, and cloud solutions for data-driven decisions
             </li>
             <li>
-              ✔ Web application development for seamless digital experiences
+              Web application development for seamless digital experiences
             </li>
-            <li>✔ Advanced predictive analytics and AI consulting</li>
+            <li>Advanced predictive analytics and AI consulting</li>
           </ul>
           <p className="mb-4 font-thin text-gray-500">
             From automating manual processes to developing custom web
@@ -176,7 +172,7 @@ const BlogPage = () => {
 
         {/* Custom Web Application Development Section */}
         <section className="mb-10 section">
-          <h3 className="text-3xl font-semibold mb-4 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
+          <h3 className="text-3xl subheading-text">
             Custom Web Application Development: A Game-Changer for Businesses
           </h3>
           <p className="mb-4 font-thin text-gray-500">
@@ -185,14 +181,14 @@ const BlogPage = () => {
             building scalable, secure, and high-performance web applications
             tailored to specific business needs.
           </p>
-          <h4 className="text-xl font-semibold mb-2 bg-gradient-to-r from-purple-400 to-red-500 bg-clip-text text-transparent">
+          <h4 className="text-xl font-semibold mb-2 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent">
             Our Web Development Services Include:
           </h4>
           <ul className="list-disc list-inside mb-4 font-thin text-gray-500">
-            <li>🔹 Custom web application development for automation</li>
-            <li>🔹 API integration and system optimization</li>
-            <li>🔹 UI/UX design for better user experience</li>
-            <li>🔹 Secure, fast, and scalable cloud solutions</li>
+            <li>Custom web application development for automation</li>
+            <li>API integration and system optimization</li>
+            <li>UI/UX design for better user experience</li>
+            <li>Secure, fast, and scalable cloud solutions</li>
           </ul>
           <p className="mb-4 font-thin text-gray-500">
             By combining AI, digital tools, and automation, we help businesses
@@ -203,49 +199,6 @@ const BlogPage = () => {
             alt="Web Development"
             className="w-full h-64 object-cover rounded-lg transition-transform duration-300 hover:scale-105 my-4"
           />
-        </section>
-
-        {/* Final Thoughts Section */}
-        <section className="mb-10 section">
-          <h3 className="text-3xl font-semibold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-            Final Thoughts: Ready to Transform Your Business?
-          </h3>
-          <p className="mb-4 font-thin text-gray-500">
-            The future belongs to businesses that embrace quality management,
-            process optimization, and digital innovation. Whether you need ISO
-            9001 certification, Lean Six Sigma consulting, AI-driven solutions,
-            or web application development, EvolveInfi is your trusted partner
-            for business excellence.
-          </p>
-          <p className="font-bold  text-gray-300">
-            📞 Get in touch today and start your journey towards a smarter, more
-            efficient, and scalable future!
-          </p>
-        </section>
-
-        {/* SEO-Optimized Elements Section */}
-        <section className="mb-10 section">
-          <h3 className="text-3xl font-semibold mb-4 bg-gradient-to-r from-orange-400 to-pink-500 bg-clip-text text-transparent">
-            SEO-Optimized Elements:
-          </h3>
-          <ul className="list-disc list-inside mb-4 font-thin text-gray-500">
-            <li>
-              ✅ Targeted Keywords: ISO 9001, Lean Six Sigma, AI-driven digital
-              transformation, quality management, process optimization, web
-              application development, business automation, ERP solutions,
-              customer engagement
-            </li>
-            <li>✅ Actionable CTAs: Encourages businesses to take action</li>
-            <li>
-              ✅ Structured Formatting: Improves readability and search engine
-              ranking
-            </li>
-          </ul>
-          <p className="font-bold text-gray-300">
-            🚀 This blog is optimized for Google search visibility, making it a
-            powerful tool to attract potential clients and improve brand
-            recognition!
-          </p>
         </section>
       </div>
       {/* Footer */}

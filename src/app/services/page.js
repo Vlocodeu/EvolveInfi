@@ -30,8 +30,8 @@ const ServicesPage = () => {
     <div className="relative ">
       {/* Header Section */}
       <section className="wrapper ">
-        <div class="hero"></div>
-        <div class="content-back">
+        <div className="hero"></div>
+        <div className="content-back">
           <h1 className="h1-glow section">OUR SERVICES</h1>
           <h2 className="p-glow text-xl text-gray-600 mb-8 text-white section">
             Our Services – Empowering Businesses with Excellence & Innovation
@@ -61,7 +61,7 @@ const ServicesPage = () => {
             <h3 className="sub-start text-2xl mb-2">
               ISO 9001 Quality Audits & Compliance
             </h3>
-            <ul className="description list-disc list-inside">
+            <ul className="description font-thin list-disc list-inside">
               <li>ISO 9001 certification consulting and compliance support</li>
               <li>Quality management system (QMS) implementation</li>
               <li>

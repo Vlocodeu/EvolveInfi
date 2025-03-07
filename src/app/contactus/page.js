@@ -30,10 +30,10 @@ const ContactUs = () => {
   }, []);
   return (
     <div className="container mx-auto ">
-      <section class="wrapper">
+      <section class="wrapper ">
         <div class="hero"></div>
         <div class="content-back-contactus">
-          <h1 className="p-glow text-3xl font-bold text-center text-white  mt-10 section">
+          <h1 className="h1-glow local-content-contactus section">
             Contact Us
           </h1>
           <form className="nft bg-gray-800 p-6 section">
