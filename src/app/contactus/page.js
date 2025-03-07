@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import "../globals.css";
 
 import { useEffect } from "react";
 
@@ -30,9 +31,9 @@ const ContactUs = () => {
   }, []);
   return (
     <div className="container mx-auto bg-black">
-      <section class="wrapper ">
-        <div class="hero"></div>
-        <div class="content-back-contactus">
+      <section className="wrapper ">
+        <div className="hero"></div>
+        <div className="content-back-contactus">
           <h1 className="h1-glow local-content-contactus section">
             Contact Us
           </h1>

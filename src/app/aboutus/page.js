@@ -2,6 +2,7 @@
 "use client"; // Mark this file as a client component
 
 import React, { useEffect } from "react";
+import "../globals.css";
 
 const AboutUs = () => {
   useEffect(() => {

@@ -1,10 +1,9 @@
 "use client"; // ✅ Ensure it's a client component
 import Link from "next/link";
 import { useState } from "react";
+import "../globals.css";
 
 const Navbar = () => {
-  const [language, setLanguage] = useState("en");
-
   return (
     <nav className="px-6 py-3 shadow-md bg-black">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
@@ -13,7 +12,6 @@ const Navbar = () => {
           <img src="/assets/logo.png" alt="Logo" className="h-10 w-10 mr-2" />
           <span className="text-white text-lg font-semibold">EvolveInfi</span>
         </div>
-
         {/* Menu */}
         <div className="flex-grow flex justify-center hidden md:flex space-x-20">
           {["home", "aboutus", "services", "blogs", "contactus"].map((item) => (
@@ -27,8 +25,7 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-
-        {/* Buttons Section */}
+        Buttons Section
         <div className="flex items-center space-x-4">
           {/* Launch App Button */}
           {/* <button className="glowing-btn">

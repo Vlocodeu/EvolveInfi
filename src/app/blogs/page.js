@@ -1,6 +1,7 @@
 "use client"; // Mark as client component
 
 import React, { useEffect } from "react";
+import "../globals.css";
 
 const BlogPage = () => {
   useEffect(() => {
