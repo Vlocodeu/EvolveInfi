@@ -31,8 +31,8 @@ const ContactUs = () => {
   }, []);
   return (
     <div className="container mx-auto bg-black">
-      <section className="wrapper ">
-        <div className="hero"></div>
+      <section className="main-color-bg">
+        <div className="sub-support-bg"></div>
         <div className="content-back-contactus">
           <h1 className="h1-glow local-content-contactus section">
             Contact Us

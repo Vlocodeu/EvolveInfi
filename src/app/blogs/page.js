@@ -28,10 +28,10 @@ const BlogPage = () => {
     });
   }, []);
   return (
-    <div className="relative bg-black">
+    <div className="container mx-auto bg-black">
       {/* Blog Header */}
-      <section className="wrapper">
-        <div className="hero"></div>
+      <section className="main-color-bg">
+        <div className="sub-support-bg"></div>
         <div className="content-back">
           <header className="py-10 text-center">
             <h1 className="h1-glow  section">BLOG</h1>

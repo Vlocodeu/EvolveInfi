@@ -31,8 +31,8 @@ const AboutUs = () => {
 
   return (
     <div className="container mx-auto bg-black">
-      <section className="wrapper">
-        <div className="hero"></div>
+      <section className="main-color-bg">
+        <div className="sub-support-bg"></div>
         <div className="content-back">
           <h1 className="h1-glow  mb-6 section">ABOUT US</h1>
           <h2 className="p-glow text-1xl text-center mb-4 section">

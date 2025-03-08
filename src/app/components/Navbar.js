@@ -25,39 +25,39 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        Buttons Section
+        {/* Buttons Section
         <div className="flex items-center space-x-4">
-          {/* Launch App Button */}
-          {/* <button className="glowing-btn">
-        <span className="glowing-txt">
-          Get<span className="faulty-letter">Star</span>ted
-        </span>
-      </button> */}
+          
+          <button className="glowing-btn">
+            <span className="glowing-txt">
+              Get<span className="faulty-letter">Star</span>ted
+            </span>
+          </button>
 
-          {/* Language Selector */}
-          {/* <div className="flex space-x-2 bg-white p-1 rounded-full shadow">
-        <button
-          className={`px-3 py-1 text-sm rounded-full ${
-            language === "en"
-              ? "bg-indigo-700 text-white"
-              : "text-indigo-700"
-          }`}
-          onClick={() => setLanguage("en")}
-        >
-          EN
-        </button>
-        <button
-          className={`px-3 py-1 text-sm rounded-full ${
-            language === "es"
-              ? "bg-indigo-700 text-white"
-              : "text-indigo-700"
-          }`}
-          onClick={() => setLanguage("es")}
-        >
-          ES
-        </button>
-      </div> */}
-        </div>
+          
+          <div className="flex space-x-2 bg-white p-1 rounded-full shadow">
+            <button
+              className={`px-3 py-1 text-sm rounded-full ${
+                language === "en"
+                  ? "bg-indigo-700 text-white"
+                  : "text-indigo-700"
+              }`}
+              onClick={() => setLanguage("en")}
+            >
+              EN
+            </button>
+            <button
+              className={`px-3 py-1 text-sm rounded-full ${
+                language === "es"
+                  ? "bg-indigo-700 text-white"
+                  : "text-indigo-700"
+              }`}
+              onClick={() => setLanguage("es")}
+            >
+              ES
+            </button>
+          </div>
+        </div> */}
       </div>
     </nav>
   );

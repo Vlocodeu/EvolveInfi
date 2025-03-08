@@ -41,8 +41,8 @@ const HomeClient = () => {
       </video> */}
 
       {/* Hero Section */}
-      <section className="wrapper">
-        <div className="hero"></div>
+      <section className="main-color-bg">
+        <div className="sub-support-bg"></div>
         <div className="content-back">
           <h1 className="h1-glow section" data-text="Welcome to Our Website ">
             Welcome to Our Website
@@ -50,7 +50,10 @@ const HomeClient = () => {
           <p className="p-glow section">
             Transform Your Business with Expert Consulting
           </p>
-          <a href="#services" className="glow-on-hover mt-6 px-6 py-3 section">
+          <a
+            href="#services"
+            className="our-service-button mt-6 px-6 py-3 section"
+          >
             Explore Our Services
           </a>
         </div>

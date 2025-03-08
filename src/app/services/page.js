@@ -28,10 +28,10 @@ const ServicesPage = () => {
     });
   }, []);
   return (
-    <div className="relative ">
+    <div className="container mx-auto bg-black ">
       {/* Header Section */}
-      <section className="wrapper ">
-        <div className="hero"></div>
+      <section className="main-color-bg">
+        <div className="sub-support-bg"></div>
         <div className="content-back">
           <h1 className="h1-glow section">OUR SERVICES</h1>
           <h2 className="p-glow text-xl text-gray-600 mb-8 text-white section">
