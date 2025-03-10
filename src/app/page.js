@@ -41,9 +41,9 @@ const HomeClient = () => {
       </video> */}
 
       {/* Hero Section */}
-      <section className="main-color-bg">
+      <section className="main-color-bg  flex flex-col items-center">
         <div className="sub-support-bg"></div>
-        <div className="content-back">
+        <div className="content-back text-center">
           <h1 className="h1-glow section" data-text="Welcome to Our Website ">
             Welcome to Our Website
           </h1>
